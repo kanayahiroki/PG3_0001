@@ -53,7 +53,7 @@ int main() {
      for (std::list<const char*>::iterator itr = lst.begin(); itr != lst.end(); ++itr) {
          if (*itr == "Tamachi")
          {
-             itr = lst.insert(itr, "Takanawa.Gateway");
+             itr = lst.insert(itr, "Takanawa Gateway");
              ++itr;
          }
 
