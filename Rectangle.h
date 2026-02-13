@@ -1,7 +1,7 @@
 #pragma once
 #include "IShape.h"
 
-class Square : public Shapes {
+class SQUARE : public IShape {
 public:
 	void Size()override;
 	void Draw()override;

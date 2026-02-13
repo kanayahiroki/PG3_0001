@@ -1,9 +1,10 @@
 #include "Rectangle.h"
+#include <iostream>
 
-void Square::Size() {
-	answer = wide* height;
+void SQUARE::Size() {
+	answer = width * height;
 }
 
-void Square::Draw() {
+void SQUARE::Draw() {
 	printf("短形の面積：%d\n", answer);
 }
